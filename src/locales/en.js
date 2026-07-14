@@ -1,0 +1,170 @@
+export default {
+  nav: {
+    summary: 'Summary',
+    experience: 'Experience',
+    projects: 'Projects',
+    skills: 'Skills',
+    contact: 'Contact',
+  },
+  hero: {
+    greeting: 'Hello.',
+    name: "I'm Dmitry Hrustalev.",
+    subtitle1: 'Frontend Developer',
+    subtitle2: 'Web Developer',
+    subtitle3: 'WordPress Specialist',
+    description:
+      'Building modern interfaces, high-converting landing pages, marketing websites and interactive web applications.',
+    downloadCV: 'Download CV',
+    viewProjects: 'View Projects',
+  },
+  summary: {
+    title: 'Summary',
+    location: 'Location',
+    locationValue: 'Belgrade, Serbia',
+    experience: 'Experience',
+    experienceValue: '5+ Years',
+    languages: 'Languages',
+    language1: 'Russian - native',
+    language2: 'English - B2',
+    language3: 'Serbian - A2',
+    focus: 'Current Focus',
+    focus1: 'Web development',
+    focus2: 'Frontend',
+    focus3: 'SEO',
+    focus4: 'Wordpress',
+    availability: 'Availability',
+    availabilityValue: 'Open to Work',
+  },
+  experience: {
+    title: 'Experience',
+    present: 'Present',
+    companies: {
+      website75: {
+        company: 'Website75',
+        position: 'Website Developer & SEO Specialist',
+        period: '2020 – 2024',
+        achievements: [
+          'Developed e-commerce websites and landing pages on WordPress, OpenCart, and other CMS platforms — from design to release',
+          'Built responsive interfaces with HTML and CSS',
+          'Improved organic visibility through SEO optimization',
+          'Conducted semantic keyword clustering and prepared content plans',
+          'Coordinated the development process with designers and content managers',
+        ],
+      },
+      topengineer: {
+        company: 'TopEngineer',
+        position: 'Technical Drafter',
+        period: '2024 – 2025',
+        achievements: [
+          'Temporary shift outside web development',
+          'Prepared drafts and worked with 3D modeling on engineering projects',
+        ],
+      },
+      igaming: {
+        company: 'International iGaming Company',
+        position: 'Web Developer & Frontend Specialist',
+        period: '2025 – Present',
+        achievements: [
+          'Developed and maintained responsive landing pages and multi-page websites for acquisition and retention campaigns',
+          'Built page layouts and email templates with HTML, CSS, and JavaScript',
+          'Customized page structures and WordPress templates',
+          'Designed site architecture and implemented on-page SEO for new GEO launches',
+          'Conducted semantic analysis and prepared content structures based on search intent',
+          'Worked with multilingual sites and content in English, Arabic, and French',
+        ],
+      },
+    },
+  },
+  projects: {
+    title: 'Projects',
+    liveDemo: 'Live Demo',
+    github: 'GitHub',
+    details: 'Details',
+    items: {
+      project1: {
+        title: 'Modern E-Commerce Platform',
+        category: 'Web Application',
+        description:
+          'A full-featured e-commerce platform with real-time inventory, cart management, and seamless checkout experience.',
+        tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
+      },
+      project2: {
+        title: 'Marketing Landing Page Suite',
+        category: 'Landing Page',
+        description:
+          'Collection of high-converting landing pages with A/B testing, analytics integration, and responsive design.',
+        tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+      },
+      project3: {
+        title: 'WordPress Corporate Website',
+        category: 'CMS Website',
+        description:
+          'Custom WordPress theme with Elementor integration, optimized for performance and SEO.',
+        tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
+      },
+      project4: {
+        title: 'Interactive Dashboard',
+        category: 'Web Application',
+        description:
+          'Real-time data visualization dashboard with animated charts, filtering, and export capabilities.',
+        tech: ['Vue.js', 'Tailwind', 'Chart.js', 'Vite'],
+      },
+      project5: {
+        title: 'Responsive Email Templates',
+        category: 'Email Development',
+        description:
+          'Set of responsive HTML email templates tested across major email clients and devices.',
+        tech: ['HTML Email', 'CSS', 'Responsive Design'],
+      },
+      project6: {
+        title: 'Portfolio Website Generator',
+        category: 'Tool',
+        description:
+          'Automated portfolio generator with customizable themes, content management, and deployment pipeline.',
+        tech: ['Vue.js', 'JavaScript', 'Tailwind', 'GitHub'],
+      },
+    },
+  },
+  skills: {
+    title: 'Skills',
+    categories: {
+      frontend: 'Frontend',
+      cms: 'CMS',
+      seo: 'SEO',
+      tools: 'Tools',
+      email: 'Email Development',
+    },
+    items: {
+      frontend: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'Vue.js',
+        'React',
+        'Tailwind CSS',
+        'Responsive Design',
+      ],
+      cms: ['WordPress', 'Elementor'],
+      seo: ['Technical SEO', 'Google Search Console', 'On-page SEO'],
+      tools: ['Git', 'GitHub', 'Vite', 'NPM'],
+      email: ['HTML Email', 'Responsive Emails'],
+    },
+  },
+  techMarquee: {
+    title: 'Featured Technologies',
+  },
+  contact: {
+    title: 'Contact',
+    email: 'Email',
+    linkedin: 'LinkedIn',
+    github: 'GitHub',
+    telegram: 'Telegram',
+    sendEmail: 'Send Email',
+    letsTalk: "Let's build something amazing together.",
+  },
+  footer: {
+    designedBy: 'Designed & Developed by',
+    name: 'Dmitry Hrustalev',
+    copyright: '© 2026',
+  },
+}
