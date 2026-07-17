@@ -81,11 +81,11 @@ export default {
     details: 'Details',
     items: {
       project1: {
-        title: 'Modern E-Commerce Platform',
-        category: 'Web Application',
+        title: 'CapitaLoop',
+        category: 'Landing Page',
         description:
-          'A full-featured e-commerce platform with real-time inventory, cart management, and seamless checkout experience.',
-        tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
+          'A modern landing page for a fictional fintech company designed to attract partners. Built with a focus on clean design, responsive layout, and smooth user interactions using vanilla JavaScript.',
+        tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project2: {
         title: 'Pomodoro Timer',
