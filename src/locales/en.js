@@ -7,13 +7,12 @@ export default {
     contact: 'Contact',
   },
   hero: {
-    greeting: 'Hello.',
-    name: "I'm Dmitry Hrustalev.",
+    greeting: 'Hello,',
+    name: "I'm Dmitry Hrustalev",
     subtitle1: 'Frontend Developer',
     subtitle2: 'Web Developer',
     subtitle3: 'WordPress Specialist',
-    description:
-      'Building modern interfaces, high-converting landing pages, marketing websites and interactive web applications.',
+    description: 'Building websites, landing pages and digital products.',
     downloadCV: 'Download CV',
     viewProjects: 'View Projects',
   },
@@ -89,39 +88,17 @@ export default {
         tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
       },
       project2: {
-        title: 'Marketing Landing Page Suite',
-        category: 'Landing Page',
+        title: 'Pomodoro Timer',
+        category: 'Productivity Tool',
         description:
-          'Collection of high-converting landing pages with A/B testing, analytics integration, and responsive design.',
-        tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          'A simple focus timer based on the Pomodoro technique. Built without frameworks.',
+        tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: 'WordPress Corporate Website',
-        category: 'CMS Website',
-        description:
-          'Custom WordPress theme with Elementor integration, optimized for performance and SEO.',
-        tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
-      },
-      project4: {
-        title: 'Interactive Dashboard',
-        category: 'Web Application',
-        description:
-          'Real-time data visualization dashboard with animated charts, filtering, and export capabilities.',
-        tech: ['Vue.js', 'Tailwind', 'Chart.js', 'Vite'],
-      },
-      project5: {
-        title: 'Responsive Email Templates',
-        category: 'Email Development',
-        description:
-          'Set of responsive HTML email templates tested across major email clients and devices.',
-        tech: ['HTML Email', 'CSS', 'Responsive Design'],
-      },
-      project6: {
-        title: 'Portfolio Website Generator',
-        category: 'Tool',
-        description:
-          'Automated portfolio generator with customizable themes, content management, and deployment pipeline.',
-        tech: ['Vue.js', 'JavaScript', 'Tailwind', 'GitHub'],
+        title: '',
+        category: '',
+        description: '',
+        tech: [],
       },
     },
   },
@@ -167,4 +144,4 @@ export default {
     name: 'Dmitry Hrustalev',
     copyright: '© 2026',
   },
-}
+};

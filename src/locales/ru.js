@@ -7,13 +7,12 @@ export default {
     contact: 'Контакты',
   },
   hero: {
-    greeting: 'Привет.',
-    name: 'Я Дмитрий Хрусталёв.',
+    greeting: 'Привет,',
+    name: 'Я Дмитрий Хрусталёв',
     subtitle1: 'Frontend Разработчик',
     subtitle2: 'Web Разработчик',
     subtitle3: 'WordPress Специалист',
-    description:
-      'Создаю современные интерфейсы, высококонверсионные лендинги, маркетинговые сайты и интерактивные веб-приложения.',
+    description: 'Создаю веб-сайты, лендинги и цифровые приложения.',
     downloadCV: 'Скачать CV',
     viewProjects: 'Смотреть проекты',
   },
@@ -89,39 +88,17 @@ export default {
         tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
       },
       project2: {
-        title: 'Набор Маркетинговых Лендингов',
-        category: 'Лендинг',
+        title: 'Pomodoro Timer',
+        category: 'Productivity Tool',
         description:
-          'Коллекция высококонверсионных лендингов с A/B тестированием, интеграцией аналитики и адаптивным дизайном.',
-        tech: ['HTML5', 'CSS3', 'JavaScript', 'SEO'],
+          'Простой pomodoro таймер для фокусировки внимания. Создан без использования фреймворков.',
+        tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: 'Корпоративный Сайт на WordPress',
-        category: 'CMS Сайт',
-        description:
-          'Кастомная WordPress тема с интеграцией Elementor, оптимизированная для производительности и SEO.',
-        tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
-      },
-      project4: {
-        title: 'Интерактивный Дашборд',
-        category: 'Веб-приложение',
-        description:
-          'Дашборд визуализации данных в реальном времени с анимированными графиками, фильтрацией и экспортом.',
-        tech: ['Vue.js', 'Tailwind', 'Chart.js', 'Vite'],
-      },
-      project5: {
-        title: 'Адаптивные Email-шаблоны',
-        category: 'Email-разработка',
-        description:
-          'Набор адаптивных HTML email-шаблонов, протестированных в основных email-клиентах и на устройствах.',
-        tech: ['HTML Email', 'CSS', 'Responsive Design'],
-      },
-      project6: {
-        title: 'Генератор Портфолио',
-        category: 'Инструмент',
-        description:
-          'Автоматизированный генератор портфолио с настраиваемыми темами, управлением контентом и pipeline деплоя.',
-        tech: ['Vue.js', 'JavaScript', 'Tailwind', 'GitHub'],
+        title: '',
+        category: '',
+        description: '',
+        tech: [],
       },
     },
   },
@@ -167,4 +144,4 @@ export default {
     name: 'Дмитрий Хрусталёв',
     copyright: '© 2026',
   },
-}
+};
