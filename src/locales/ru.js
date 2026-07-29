@@ -82,9 +82,9 @@ export default {
     items: {
       project1: {
         title: 'Современная E-Commerce Платформа',
-        category: 'Веб-приложение',
+        category: 'Лендинг',
         description:
-          'Полнофункциональная e-commerce платформа с инвентаризацией в реальном времени, управлением корзиной и бесшовным оформлением заказа.',
+          'Современный лендинг для вымышленной финтех-компании. При разработке особое внимание уделялось лаконичному дизайну, адаптивной верстке и плавному взаимодействию с пользователем.',
         tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
       },
       project2: {
@@ -95,10 +95,11 @@ export default {
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: '',
-        category: '',
-        description: '',
-        tech: [],
+        title: 'Game Demo Landing',
+        category: 'Лендинг',
+        description:
+          'Одностраничный лендинг на чистом JavaScript с интеграцией iframe, таймером показа модального окна и адаптивным интерфейсом.',
+        tech: ['JavaScript', 'HTML5', 'Tailwind', 'Vite'],
       },
     },
   },
@@ -144,4 +145,4 @@ export default {
     name: 'Дмитрий Хрусталёв',
     copyright: '© 2026',
   },
-};
+}

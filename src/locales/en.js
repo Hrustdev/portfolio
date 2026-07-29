@@ -84,7 +84,7 @@ export default {
         title: 'CapitaLoop',
         category: 'Landing Page',
         description:
-          'A modern landing page for a fictional fintech company designed to attract partners. Built with a focus on clean design, responsive layout, and smooth user interactions using vanilla JavaScript.',
+          'A modern landing page for a fictional fintech company. Built with a focus on clean design, responsive layout, and smooth user interactions.',
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project2: {
@@ -95,10 +95,11 @@ export default {
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: '',
-        category: '',
-        description: '',
-        tech: [],
+        title: 'Game Demo Landing',
+        category: 'Landing Page',
+        description:
+          'A single-page landing page built entirely in JavaScript, featuring iframe integration, a modal window timer, and a responsive interface.',
+        tech: ['JavaScript', 'HTML5', 'Tailwind', 'Vite'],
       },
     },
   },
@@ -144,4 +145,4 @@ export default {
     name: 'Dmitry Hrustalev',
     copyright: '© 2026',
   },
-};
+}
