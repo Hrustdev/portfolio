@@ -88,7 +88,7 @@ export default {
         tech: ['JavaScript', 'Vue.js', 'Tailwind', 'Vite'],
       },
       project2: {
-        title: 'Pomodoro Timer',
+        title: 'Pomodoro timer',
         category: 'Productivity Tool',
         description:
           'A simple focus timer based on the Pomodoro technique. Built without frameworks.',

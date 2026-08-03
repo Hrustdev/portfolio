@@ -88,14 +88,14 @@ export default {
         tech: ['JavaScript', 'Vue.js', 'Tailwind', 'Vite'],
       },
       project2: {
-        title: 'Pomodoro Timer',
+        title: 'Pomodoro таймер',
         category: 'Productivity Tool',
         description:
           'Простой pomodoro таймер для фокусировки внимания. Создан без использования фреймворков.',
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: 'Nova Partners Landing',
+        title: 'Лендинг Nova Partners',
         category: 'Лендинг',
         description:
           'Адаптивный лендинг партнерской программы с интерактивными элементами и современной компонентной структурой на Vue3',
