@@ -1,6 +1,7 @@
 import capitaloopImg from '../assets/projects/capitaloop-project.webp'
 import pomodoroImg from '../assets/projects/pomodoro-project.webp'
 import iframeSlotDemo from '../assets/projects/slot-game-demo-iframe.webp'
+import novaPartnersImg from '../assets/projects/nova-project.webp'
 
 export const projects = [
   {
@@ -20,10 +21,18 @@ export const projects = [
   {
     id: 3,
     key: 'project3',
-    image: iframeSlotDemo,
-    demoUrl: 'https://landing-demo-slot.workhrustal8991.workers.dev',
-    githubUrl: 'https://github.com/Hrustdev/landing-demo-slot',
+    image: novaPartnersImg,
+    demoUrl: '#',
+    githubUrl: 'https://github.com/Hrustdev/Nova-partners',
   },
+  // {
+  //   id: 4,
+  //   key: 'project3',
+  //   image: iframeSlotDemo,
+  //   demoUrl: 'https://landing-demo-slot.workhrustal8991.workers.dev',
+  //   githubUrl: 'https://github.com/Hrustdev/landing-demo-slot',
+  // },
+
   // {
   //   id: 3,
   //   key: 'project3',

@@ -85,7 +85,7 @@ export default {
         category: 'Landing Page',
         description:
           'A modern landing page for a fictional fintech company. Built with a focus on clean design, responsive layout, and smooth user interactions.',
-        tech: ['JavaScript', 'HTML5', 'CSS3'],
+        tech: ['JavaScript', 'Vue.js', 'Tailwind', 'Vite'],
       },
       project2: {
         title: 'Pomodoro Timer',
@@ -95,11 +95,11 @@ export default {
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: 'Game Demo Landing',
+        title: 'Nova Partners Landing',
         category: 'Landing Page',
         description:
-          'A single-page landing page built entirely in JavaScript, featuring iframe integration, a modal window timer, and a responsive interface.',
-        tech: ['JavaScript', 'HTML5', 'Tailwind', 'Vite'],
+          'An adaptive affiliate program landing page with interactive elements and a modern component-based structure built with Vue 3',
+        tech: ['JavaScript', 'HTML5', 'CSS3', 'Vue 3'],
       },
     },
   },
@@ -118,7 +118,6 @@ export default {
         'CSS3',
         'JavaScript',
         'Vue.js',
-        'React',
         'Tailwind CSS',
         'Responsive Design',
       ],

@@ -85,7 +85,7 @@ export default {
         category: 'Лендинг',
         description:
           'Современный лендинг для вымышленной финтех-компании. При разработке особое внимание уделялось лаконичному дизайну, адаптивной верстке и плавному взаимодействию с пользователем.',
-        tech: ['Vue.js', 'Tailwind', 'JavaScript', 'Vite'],
+        tech: ['JavaScript', 'Vue.js', 'Tailwind', 'Vite'],
       },
       project2: {
         title: 'Pomodoro Timer',
@@ -95,11 +95,11 @@ export default {
         tech: ['JavaScript', 'HTML5', 'CSS3'],
       },
       project3: {
-        title: 'Game Demo Landing',
+        title: 'Nova Partners Landing',
         category: 'Лендинг',
         description:
-          'Одностраничный лендинг на чистом JavaScript с интеграцией iframe, таймером показа модального окна и адаптивным интерфейсом.',
-        tech: ['JavaScript', 'HTML5', 'Tailwind', 'Vite'],
+          'Адаптивный лендинг партнерской программы с интерактивными элементами и современной компонентной структурой на Vue3',
+        tech: ['JavaScript', 'HTML5', 'CSS3', 'Vue 3'],
       },
     },
   },
@@ -118,7 +118,6 @@ export default {
         'CSS3',
         'JavaScript',
         'Vue.js',
-        'React',
         'Tailwind CSS',
         'Responsive Design',
       ],
