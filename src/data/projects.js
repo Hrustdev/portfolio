@@ -22,7 +22,7 @@ export const projects = [
     id: 3,
     key: 'project3',
     image: novaPartnersImg,
-    demoUrl: '#',
+    demoUrl: 'https://hrustdev.github.io/Nova-partners/',
     githubUrl: 'https://github.com/Hrustdev/Nova-partners',
   },
   // {
