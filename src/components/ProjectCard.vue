@@ -1,3 +1,29 @@
+<script setup>
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { ExternalLink, Github } from 'lucide-vue-next'
+
+const props = defineProps({
+  project: {
+    type: Object,
+    required: true,
+  },
+})
+
+const { locale } = useI18n()
+
+const localized = (field) => {
+  if (!field) return ''
+  if (typeof field === 'string') return field
+  return field[locale.value] ?? field.en ?? Object.values(field)[0] ?? ''
+}
+
+const projectTitle = computed(() => localized(props.project.title))
+const projectCategory = computed(() => localized(props.project.category))
+const projectDescription = computed(() => localized(props.project.description))
+const projectTech = computed(() => props.project.tech ?? [])
+</script>
+
 <template>
   <div
     class="group relative bg-card rounded-2xl overflow-hidden shadow-lg shadow-black/5 border border-gray-100/50 transition-all duration-500 hover:shadow-xl hover:shadow-black/10 hover:-translate-y-2"
@@ -41,7 +67,7 @@
           :key="tech"
           class="px-2.5 py-1 bg-gray-100 text-secondary-text rounded-lg text-xs font-medium"
         >
-          {{ $rt(tech) }}
+          {{ tech }}
         </span>
       </div>
 
@@ -64,31 +90,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { computed } from 'vue';
-import { useI18n } from 'vue-i18n';
-import { ExternalLink, Github } from 'lucide-vue-next';
-
-const props = defineProps({
-  project: {
-    type: Object,
-    required: true,
-  },
-});
-
-const { t, tm, rt } = useI18n();
-
-const projectTitle = computed(() =>
-  t(`projects.items.${props.project.key}.title`),
-);
-const projectCategory = computed(() =>
-  t(`projects.items.${props.project.key}.category`),
-);
-const projectDescription = computed(() =>
-  t(`projects.items.${props.project.key}.description`),
-);
-const projectTech = computed(() =>
-  tm(`projects.items.${props.project.key}.tech`),
-);
-</script>
